@@ -72,7 +72,6 @@ GEM
     json_pure (1.8.1)
     jwt (0.1.11)
       multi_json (>= 1.5)
-    kwalify (0.7.2)
     launchy (2.4.2)
       addressable (~> 2.3)
     metaclass (0.0.4)
@@ -102,7 +101,7 @@ GEM
       rake
       rspec (>= 2.9.0)
       rspec-puppet (>= 0.1.1)
-    rake (10.1.1)
+    rake (12.3.3)
     rbvmomi (1.8.1)
       builder
       nokogiri (>= 1.4.1)
@@ -118,19 +117,6 @@ GEM
     rspec-mocks (2.13.1)
     rspec-puppet (1.0.1)
       rspec
-    rspec-system (2.5.1)
-      kwalify (~> 0.7.2)
-      net-scp (~> 1.1)
-      net-ssh (~> 2.6)
-      nokogiri (~> 1.5.9)
-      rbvmomi (~> 1.6)
-      rspec (~> 2.13)
-      systemu (~> 2.5)
-    rspec-system-puppet (2.2.1)
-      rspec-system (~> 2.0)
-    rspec-system-serverspec (1.0.0)
-      rspec-system (~> 2.0)
-      serverspec (~> 0.6.0)
     ruby-hmac (0.4.0)
     serverspec (0.6.30)
       highline
@@ -147,7 +133,6 @@ GEM
       simplecov-html (~> 0.8.0)
     simplecov-html (0.8.0)
     slop (3.5.0)
-    systemu (2.6.4)
     thor (0.19.1)
     trollop (2.0)
     unf (0.1.4)
@@ -165,10 +150,7 @@ DEPENDENCIES
   puppet
   puppet-lint
   puppetlabs_spec_helper
-  rake (~> 10.1.0)
+  rake (~> 12.3.3)
   rspec-puppet
-  rspec-system
-  rspec-system-puppet
-  rspec-system-serverspec
   serverspec
   simplecov
